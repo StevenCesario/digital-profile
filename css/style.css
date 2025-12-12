@@ -8,7 +8,7 @@ a {
 }
 
 #header {
-    background-color:#6d8ea0;
+    background-color:#1c2532;
     color: white;
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@ a {
 }
 
 #hero {
-    background-color: #016fb9;
+    background-color: #0b3356;
     height: 550px;
     display: flex;
     justify-content: space-between;
@@ -46,11 +46,11 @@ a {
 }
 
 #name-style {
-    color: #afa98d;
+    color: #e1a41c;
 }
 
 #hero-button {
-    color: #afa98d;
+    color: #e1a41c;
     /* border: 1px solid black; */
     display: inline-block;
     padding: 10px 30px;
@@ -58,14 +58,14 @@ a {
     /* margin-left: 30%; */
 
     /* Button styling */
-    border: 2px solid #afa98d;
+    border: 2px solid #e1a41c;
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
 }
 
 #hero-button:hover {
-    background-color: #afa98d; /* Fill it with gold */
+    background-color: #e1a41c; /* Fill it with gold */
     color: white;              /* Make text white to contrast */
     cursor: pointer;           /* Shows the hand icon */
 }
@@ -89,14 +89,15 @@ a {
 }
 
 #about {
-    background-color: #22aed1;
+    background-color: #d1edff;
     height: 200px;
     padding: 2% 22%;
 }
 
 #main-section {
-    background-color: #016fb9;
+    background-color: #0b3356;
     padding: 2% 22%;
+    color: white;
 }
 
 #skill-items {
@@ -105,14 +106,16 @@ a {
 }
 
 .skill-item {
-    background-color: #22aed1;
+    background-color: #d9ae52;
     border: 1px solid black;
     padding: 10px;
     border-radius: 8px;
+    color: black;
 }
 
 #footer {
-    background-color: #6d8ea0;
+    background-color: #1c2532;
+    color: white;
     padding: 2% 22%;
     margin: 0 auto;
     display: flex;
