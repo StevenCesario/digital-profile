@@ -1,5 +1,6 @@
 body {
     background-color: lightblue;
+    font-family: "Geom";
 }
 
 #header {
@@ -19,7 +20,7 @@ body {
 }
 
 #hero {
-    background-color: blue;
+    background-color: #016fb9;
     height: 600px;
     display: flex;
     justify-content: space-between;
@@ -30,10 +31,38 @@ body {
 }
 
 #hero-text {
-    background-color: aqua;
     width: 45%;
     height: 70%;
+    color: white;
+    font-size: larger;
+    /* border: 1px solid black; */
 }
+
+#name-style {
+    color: #afa98d;
+}
+
+#hero-button {
+    color: #afa98d;
+    /* border: 1px solid black; */
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-left: 30%;
+
+    /* Button styling */
+    border: 2px solid #afa98d;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#hero-button:hover {
+    background-color: #afa98d; /* Fill it with gold */
+    color: white;              /* Make text white to contrast */
+    cursor: pointer;           /* Shows the hand icon */
+}
+
 #hero-image {
     background-color:saddlebrown;
 }
