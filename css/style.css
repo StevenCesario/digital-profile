@@ -4,7 +4,8 @@ body {
 }
 
 #header {
-    background-color:darkcyan;
+    background-color:#6d8ea0;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,28 +64,23 @@ body {
     cursor: pointer;           /* Shows the hand icon */
 }
 
-#hero-image {
-    background-color:saddlebrown;
-}
-
 #profile-pic {
     display: block;
     object-fit: cover;
 }
 
 #about {
-    background-color: darkmagenta;
+    background-color: #22aed1;
     padding: 2% 20%;
 }
 
 #main-section {
-    background-color: darkblue;
+    background-color: #016fb9;
     padding: 2% 20%;
 }
 
 #footer {
-    background-color: khaki;
-    border: 1px solid black;
+    background-color: #6d8ea0;
     padding: 2% 20%;
     margin: 0 auto;
 }
