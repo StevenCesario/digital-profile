@@ -3,6 +3,10 @@ body {
     font-family: "Geom";
 }
 
+a {
+    color: white;
+}
+
 #header {
     background-color:#6d8ea0;
     color: white;
@@ -16,27 +20,29 @@ body {
     margin: 0 20px;
 }
 
-#main {
-    background-color:coral;
-}
-
 #hero {
     background-color: #016fb9;
-    height: 600px;
+    height: 550px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20%;
     margin: 0 auto;
     max-width: 1200px;
+    /* flex-wrap: nowrap; */
 }
 
 #hero-text {
-    width: 45%;
-    height: 70%;
+    width: 800px;
+    /* height: 70%; */
     color: white;
     font-size: larger;
+    padding: 0 0 0 3%;
     /* border: 1px solid black; */
+
+    /* Make the text float "above" the image */
+    position: relative;
+    z-index: 2;
 }
 
 #name-style {
@@ -49,7 +55,7 @@ body {
     display: inline-block;
     padding: 10px 30px;
     margin-top: 20px;
-    margin-left: 30%;
+    /* margin-left: 30%; */
 
     /* Button styling */
     border: 2px solid #afa98d;
@@ -64,6 +70,19 @@ body {
     cursor: pointer;           /* Shows the hand icon */
 }
 
+#hero-image {
+    width: 50%;
+    padding: 0 16% 0 0;
+    /* border: 1px solid black; */
+
+    /* "Forcing" the image 150px to the left "under the text" */
+    margin-left: -150px; 
+    
+    position: relative;
+    z-index: 1;
+    
+}
+
 #profile-pic {
     display: block;
     object-fit: cover;
@@ -71,16 +90,17 @@ body {
 
 #about {
     background-color: #22aed1;
-    padding: 2% 20%;
+    height: 250px;
+    padding: 2% 22%;
 }
 
 #main-section {
     background-color: #016fb9;
-    padding: 2% 20%;
+    padding: 2% 22%;
 }
 
 #footer {
     background-color: #6d8ea0;
-    padding: 2% 20%;
+    padding: 2% 22%;
     margin: 0 auto;
 }
