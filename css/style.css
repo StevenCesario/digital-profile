@@ -103,4 +103,13 @@ a {
     background-color: #6d8ea0;
     padding: 2% 22%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-items {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
