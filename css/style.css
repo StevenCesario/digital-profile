@@ -1,0 +1,25 @@
+body {
+    background-color: lightblue;
+}
+
+#profile-page {
+    margin: auto;
+    width: 800px;
+}
+
+.profile-image {
+    border-radius: 50%;
+}
+
+.cv-section {
+    border: 2px;
+    margin: 2px;
+}
+
+ul li {
+    color: green;
+}
+
+a:hover {
+    color: coral;
+}
