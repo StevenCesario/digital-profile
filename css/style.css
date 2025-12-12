@@ -99,6 +99,18 @@ a {
     padding: 2% 22%;
 }
 
+#skill-items {
+    display: flex;
+    gap: 10px;
+}
+
+.skill-item {
+    background-color: #22aed1;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 8px;
+}
+
 #footer {
     background-color: #6d8ea0;
     padding: 2% 22%;
