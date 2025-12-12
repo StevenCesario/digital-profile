@@ -2,24 +2,60 @@ body {
     background-color: lightblue;
 }
 
-#profile-page {
-    margin: auto;
-    width: 800px;
+#header {
+    background-color:darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
-.profile-image {
-    border-radius: 50%;
+.header-item {
+    margin: 0 20px;
 }
 
-.cv-section {
-    border: 2px;
-    margin: 2px;
+#main {
+    background-color:coral;
 }
 
-ul li {
-    color: green;
+#hero {
+    background-color: blue;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20%;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
-a:hover {
-    color: coral;
+#hero-text {
+    background-color: aqua;
+    width: 45%;
+    height: 70%;
+}
+#hero-image {
+    background-color:saddlebrown;
+}
+
+#profile-pic {
+    display: block;
+    object-fit: cover;
+}
+
+#about {
+    background-color: darkmagenta;
+    padding: 2% 20%;
+}
+
+#main-section {
+    background-color: darkblue;
+    padding: 2% 20%;
+}
+
+#footer {
+    background-color: khaki;
+    border: 1px solid black;
+    padding: 2% 20%;
+    margin: 0 auto;
 }
